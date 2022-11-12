@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <Spinner
+        android:id="@+id/sbEquipo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_equipos" />
+
+    <EditText
+        android:id="@+id/txtGolesEquipo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Goles del Equipo 1"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/sbEquipo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:entries="@array/spinner_equipos" />
+
+    <EditText
+        android:id="@+id/txtGolesEquipo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Goles del Equipo 2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtResumenPartido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Resumen"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnCrearPartido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="crear partido" />
+
+</LinearLayout>
